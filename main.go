@@ -40,7 +40,6 @@ func main() {
 	// DELETE
 	rGroup.DELETE("", controllers.DeleteUser)
 
-
 	err := router.Run("localhost:8888")
 	if err != nil {
 		log.Fatal(err)
